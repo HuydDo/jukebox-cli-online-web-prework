@@ -47,12 +47,14 @@ def play(array)
 			if array[j]
 			# i = array.index(input)
 				puts "Playing #{array[j-1]}"
+		
 			else
 			 	puts "Invalid input, please try again"
 			end
 	else
 		puts "Invalid input, please try again"
 	end
+
 end
 
 
